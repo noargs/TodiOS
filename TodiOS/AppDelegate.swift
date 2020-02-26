@@ -16,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+       
+        // will only work in "simulator" NOT physicall device
+        // will print the path of device and app on debug console
+        // follow the path link on mac hardrive until reaches 'app' from there select 'Library/Preferences/io.github.noargs.TodiOS.plist'
+        
+        // /Users/azzi/Library/Developer/CoreSimulator/Devices/::::long device identifier::/data/Containers/Data/Application/:::long app identifier:::/Library/Preferences/io.github.noargs.TodiOS.plist
+       
+        //  print(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last! as String)
+        
         return true
     }
 
