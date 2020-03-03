@@ -15,6 +15,7 @@
 		436EC81424084A5400546DD9 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436EC81324084A5400546DD9 /* CategoryViewController.swift */; };
 		436EC81824088B9100546DD9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436EC81724088B9100546DD9 /* Item.swift */; };
 		436EC81A24088B9D00546DD9 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436EC81924088B9D00546DD9 /* Category.swift */; };
+		438C4C63240DE02200B99CD9 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 438C4C62240DE02200B99CD9 /* SwipeTableViewController.swift */; };
 		F77282C3D64B6D7618C0C701 /* Pods_TodiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AAF1CD6CD9F2CED7B0E5E5A /* Pods_TodiOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		436EC81324084A5400546DD9 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		436EC81724088B9100546DD9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		436EC81924088B9D00546DD9 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		438C4C62240DE02200B99CD9 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		AE9F056DF8D9EC305882221F /* Pods-TodiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodiOS.debug.xcconfig"; path = "Target Support Files/Pods-TodiOS/Pods-TodiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		C5D4AFD2ABD6CFFF404552F1 /* Pods-TodiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodiOS.release.xcconfig"; path = "Target Support Files/Pods-TodiOS/Pods-TodiOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +93,7 @@
 			children = (
 				436EC81324084A5400546DD9 /* CategoryViewController.swift */,
 				433896272405DA9E0063DD5B /* TodoListViewController.swift */,
+				438C4C62240DE02200B99CD9 /* SwipeTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				436EC81424084A5400546DD9 /* CategoryViewController.swift in Sources */,
 				433896282405DA9E0063DD5B /* TodoListViewController.swift in Sources */,
 				433896262405DA9E0063DD5B /* AppDelegate.swift in Sources */,
+				438C4C63240DE02200B99CD9 /* SwipeTableViewController.swift in Sources */,
 				436EC81A24088B9D00546DD9 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
